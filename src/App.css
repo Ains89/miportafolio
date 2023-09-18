@@ -1,0 +1,267 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  ;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+  background-blend-mode: multiply, multiply;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Mis estilos */
+
+
+
+
+#encabezado {
+  margin: 10px;
+  padding-left: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vh;
+  height: 100vh;
+}
+
+.nombre {
+  width: 50%;
+  height: auto;
+}
+
+.imagenperfil {
+  padding-left: 200px;
+  width: 50%;
+  height: auto;
+
+}
+
+#encabezado img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+#encabezado h1 {
+  margin-left: 60px;
+  font-family: 'Montserrat';
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: wheat;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  ;
+
+
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: black;
+  font-size: 30px;
+  width: 100vh;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+
+
+}
+
+.navbar-right a {
+  margin: 0 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Montserrat';
+  color: wheat;
+  letter-spacing: 1px;
+
+}
+
+.navbar-right a:hover {
+  color: greenyellow;
+}
+
+#about {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.imgpaper1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.imgpaper2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.imgpaper3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.imgpaper1 p {
+  font-family: 'Montserrat';
+  color: wheat;
+}
+
+.imgpaper2 p {
+  font-family: 'Montserrat';
+  color: wheat;
+}
+
+.imgpaper3 p {
+  font-family: 'Montserrat';
+  color: wheat;
+}
+
+/* Proyectos */
+
+#tarjeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: 100%;
+  padding: 1px;
+
+}
+
+#tarjeta .btn1 {
+  background-color: rgb(135, 155, 167);
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#tarjeta .btn2 {
+  background-color: rgb(135, 155, 167);
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#tarjeta .btn3 {
+  background-color: rgb(135, 155, 167);
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+#tarjeta .btn1 a {
+  text-decoration: none;
+}
+
+#tarjeta .btn2 a {
+  text-decoration: none;
+}
+
+#tarjeta .btn3 a {
+  text-decoration: none;
+}
+
+
+
+
+/* footer */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  font-family: 'Montserrat';
+  letter-spacing: 2px;
+  font-size: 30px;
+
+
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+.social-media ul li {
+  display: inline;
+  margin-right: 10px;
+  
+}
+
+.social-media ul li a {
+  color: #333;
+  text-decoration: none;
+ 
+}
+
+.origin {
+  margin-top: 10px;
+ 
+}
+
+.current-date {
+  margin-top: 10px;
+ 
+}
